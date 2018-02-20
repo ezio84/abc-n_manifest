@@ -78,7 +78,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" clone-depth="1"/>
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
@@ -100,7 +100,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
-  <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
+  <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" clone-depth="1"/>
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bart" name="platform/external/bart" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
@@ -254,7 +254,7 @@
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
-  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" />
+  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1"/>
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
@@ -419,7 +419,7 @@
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
-  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" clone-depth="1"/>
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
