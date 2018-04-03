@@ -5,15 +5,13 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            sync-c="true" />
-  <default revision="refs/tags/android-8.1.0_r15"
+  <default revision="refs/tags/android-8.1.0_r20"
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
-  <remote name="substratum"
-           fetch="https://github.com/substratum/" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="o2" />
@@ -35,7 +33,6 @@
   </project>
   <project path="manifest" name="abc_manifest" remote="abc" revision="o2" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o2" />
-  <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o2" />-->
   <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o2" />
   <!-- <project path="external/wpa_supplicant_8" name="abc_external_wpa_supplicant_8" groups="pdk" remote="abc" revision="o2" />-->
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
@@ -49,7 +46,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o2" />
-  <!-- <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="o2" />-->
   <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o2" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="o2" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o2" />
@@ -69,9 +65,6 @@
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o2" />
-
-    <!-- Substratum
-  <project path="packages/services/ThemeInterfacer" name="interfacer" remote="substratum" revision="n-rootless" />-->
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="abc_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="o2" />
