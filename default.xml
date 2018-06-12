@@ -35,6 +35,7 @@
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o2" />
   <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o2" />
   <project path="external/selinux" name="abc_external_selinux" remote="abc" revision="o2" />
+  <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o2" />
@@ -53,13 +54,13 @@
   <project path="packages/apps/PhoneCommon" name="abc_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Settings" name="abc_packages_apps_Settings" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/SlimRecents" name="abc_packages_apps_SlimRecents" remote="abc" revision="o2" />
+  <project path="packages/apps/Stk" name="abc_packages_apps_Stk" remote="abc" revision="o2" />
   <project path="packages/inputmethods/LatinIME" name="abc_packages_inputmethods_LatinIME" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/providers/MediaProvider" name="abc_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/providers/TelephonyProvider" name="abc_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
-  <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="o2" />
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o2" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
@@ -428,7 +429,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
