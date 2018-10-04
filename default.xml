@@ -70,8 +70,9 @@
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="p" />
 
   <!-- ABC device trees -->
-  <project path="vendor/huawei" name="abc_vendor_huawei" remote="abc" revision="p" />
-  <project path="device/huawei/berkeley" name="device_huawei_berkeley" remote="abc" revision="p" />
+  <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="p" />
+  <project path="device/huawei/kirin970-common" name="abc_device_huawei_kirin970-common" remote="abc" revision="p" />
+  <project path="vendor/huawei/kirin970-common" name="abc_vendor_huawei_kirin970-common" remote="abc" revision="p" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
