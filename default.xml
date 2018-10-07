@@ -54,6 +54,7 @@
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="p" />
   <project path="packages/apps/PhoneCommon" name="abc_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="p" />
   <project path="packages/apps/Settings" name="abc_packages_apps_Settings" groups="pdk-fs" remote="abc" revision="p" />
+  <project path="packages/apps/SettingsIntelligence" name="abc_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="abc" revision="p" />
   <project path="packages/apps/SlimRecents" name="abc_packages_apps_SlimRecents" remote="abc" revision="p" />
   <project path="packages/apps/Stk" name="abc_packages_apps_Stk" remote="abc" revision="p" />
   <project path="packages/inputmethods/LatinIME" name="abc_packages_inputmethods_LatinIME" groups="pdk-fs" remote="abc" revision="p" />
@@ -506,7 +507,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
