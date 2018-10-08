@@ -12,6 +12,8 @@
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
+  <remote name="gitlab"
+           fetch="https://gitlab.com/ezio84/" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="p" />
@@ -74,6 +76,8 @@
   <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="p" />
   <project path="device/huawei/kirin970-common" name="abc_device_huawei_kirin970-common" remote="abc" revision="p" />
   <project path="vendor/huawei/kirin970-common" name="abc_vendor_huawei_kirin970-common" remote="abc" revision="p" />
+  <!-- SimpleGapps inline -->
+  <project path="vendor/gapps" name="android-gapps" remote="gitlab" revision="pie-inline" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
