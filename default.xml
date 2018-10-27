@@ -71,6 +71,8 @@
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="p" />
   <project path="system/vold" name="abc_system_vold" remote="abc" revision="p" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="p" />
+  <project path="vendor/support" name="abc_vendor_support" remote="abc" revision="p" />
+  <project path="vendor/themes" name="abc_vendor_themes" remote="abc" revision="p" />
 
   <!-- ABC device trees -->
   <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="8.0vendor" />
