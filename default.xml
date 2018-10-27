@@ -73,9 +73,9 @@
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="p" />
 
   <!-- ABC device trees -->
-  <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="p" />
-  <project path="device/huawei/kirin970-common" name="abc_device_huawei_kirin970-common" remote="abc" revision="p" />
-  <project path="vendor/huawei/kirin970-common" name="abc_vendor_huawei_kirin970-common" remote="abc" revision="p" />
+  <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="8.0vendor" />
+  <project path="device/huawei/kirin970-common" name="abc_device_huawei_kirin970-common" remote="abc" revision="8.0vendor" />
+  <project path="vendor/huawei/kirin970-common" name="abc_vendor_huawei_kirin970-common" remote="abc" revision="8.0vendor" />
   <!-- SimpleGapps inline -->
   <project path="vendor/gapps" name="android-gapps" remote="gitlab" revision="pie-inline" />
 
