@@ -20,7 +20,7 @@
   <!-- <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="p" />-->
   <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" revision="p" />
   <!-- ABC Repo's -->
-  <project path="bionic" name="abc_bionic" remote="abc" revision="p" groups="pdk" >
+  <project path="bionic" name="abc_bionic" remote="abc" revision="p" groups="pdk" />
   <project path="build/make" name="abc_build" remote="abc" revision="p" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
