@@ -49,9 +49,9 @@
   <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc" revision="p" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="p" />
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="p" />
-  <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="p" />
+  <!-- <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="p" />-->
   <project path="packages/apps/CustomDoze" name="abc_packages_apps_CustomDoze" remote="abc" revision="p" />
-  <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="p" />
+  <!-- <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="p" />-->
   <project path="packages/apps/Pulse" name="abc_packages_apps_DUI" remote="abc" revision="p" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="p" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="p" />
