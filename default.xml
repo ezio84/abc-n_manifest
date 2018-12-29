@@ -78,9 +78,10 @@
   <project path="vendor/themes" name="abc_vendor_themes" remote="abc" revision="p" />
 
   <!-- ABC device trees -->
-  <project path="device/huawei/berkeley" name="abc_device_huawei_berkeley" remote="abc" revision="8.0vendor" />
-  <project path="device/huawei/kirin970-common" name="abc_device_huawei_kirin970-common" remote="abc" revision="8.0vendor" />
-  <project path="vendor/huawei/kirin970-common" name="abc_vendor_huawei_kirin970-common" remote="abc" revision="8.0vendor" />
+  <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" revision="p" />
+  <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" revision="p" />
+  <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" revision="p" />
+  <project path="vendor/google" name="abc_vendor_google" remote="abc" revision="p" />
   <!-- SimpleGapps inline -->
   <project path="vendor/gapps" name="android-gapps" remote="gitlab" revision="pie-inline" />
 
