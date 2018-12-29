@@ -13,7 +13,7 @@
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
   <remote name="gitlab"
-           fetch="https://gitlab.com/ezio84/" />
+           fetch="https://gitlab.com/" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="p" />
@@ -76,14 +76,15 @@
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="p" />
   <project path="vendor/support" name="abc_vendor_support" remote="abc" revision="p" />
   <project path="vendor/themes" name="abc_vendor_themes" remote="abc" revision="p" />
-
+  <!-- Up to date Clang -->
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
   <!-- ABC device trees -->
   <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" revision="p" />
   <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" revision="p" />
   <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" revision="p" />
   <project path="vendor/google" name="abc_vendor_google" remote="abc" revision="p" />
   <!-- SimpleGapps inline -->
-  <project path="vendor/gapps" name="android-gapps" remote="gitlab" revision="pie-inline" />
+  <project path="vendor/gapps" name="ezio84/android-gapps" remote="gitlab" revision="pie-inline" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -550,7 +551,6 @@
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
