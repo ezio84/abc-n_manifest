@@ -85,6 +85,7 @@
   <project path="vendor/google" name="abc_vendor_google" remote="abc" revision="p" />
   <!-- SimpleGapps inline -->
   <project path="vendor/gapps" name="ezio84/android-gapps" remote="gitlab" revision="pie-inline" />
+  <project path="vendor/additional_pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="p" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
