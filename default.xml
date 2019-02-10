@@ -53,6 +53,7 @@
   <project path="packages/apps/CustomDoze" name="abc_packages_apps_CustomDoze" remote="abc" revision="p" />
   <project path="packages/apps/DocumentsUI" name="abc_packages_apps_DocumentsUI" remote="abc" revision="p" />
   <!-- <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="p" />-->
+  <project path="packages/apps/EmergencyInfo" name="abc_packages_apps_EmergencyInfo" remote="abc" revision="p" />
   <project path="packages/apps/Pulse" name="abc_packages_apps_DUI" remote="abc" revision="p" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="p" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="p" />
@@ -511,7 +512,6 @@
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
