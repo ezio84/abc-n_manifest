@@ -56,7 +56,7 @@
   <!-- <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="q" />-->
   <project path="packages/apps/EmergencyInfo" name="abc_packages_apps_EmergencyInfo" remote="abc" revision="q" />
   <!-- <project path="packages/apps/Pulse" name="abc_packages_apps_DUI" remote="abc" revision="q" />-->
-  <!-- <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="q" />-->
+  <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="q" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="q" />
   <!-- PackageInstaller path renamed to PermissionController in Q -->
   <project path="packages/apps/PermissionController" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="q" />
