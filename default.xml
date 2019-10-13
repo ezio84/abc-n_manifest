@@ -77,6 +77,7 @@
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="q" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="q" />
   <project path="system/vold" name="abc_system_vold" remote="abc" revision="q" />
+  <project path="vendor/extras" name="abc_vendor_extras" remote="abc" revision="q" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="q" />
   <project path="vendor/support" name="abc_vendor_support" remote="abc" revision="q" />
   <project path="vendor/themes" name="abc_vendor_themes" remote="abc" revision="q" />
