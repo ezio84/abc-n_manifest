@@ -11,10 +11,14 @@ Sync source (for future syncs, if you have errors, try "repo sync --force-sync")
 
 	repo sync
 
-To build:
+To build, use the build_rom.sh script in the "scripts" tree or:
 
-        https://github.com/ezio84/scripts/blob/n/README.mkdn
-        https://github.com/ezio84/scripts/blob/n/build_rom.sh
+	. build/envsetup.sh
+	make clean
+	brunch "abc_taimen-user" 2>&1 | tee build.log
+
+
+To flash the first time: remove pin, flash stock factory img, flash boot.img with fastboot, then boot to stock recovery and adb sideload the OTA zip you got in the out folder. Before rebooting wipe data.
 
 
 =====================
