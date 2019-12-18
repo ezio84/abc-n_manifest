@@ -96,6 +96,7 @@
   <!-- SimpleGapps inline - ********** NB: USE android-pixelgapps FOR PIXEL DEVICES, android-gapps FOR OTHER ONES **********-->
   <!-- <project path="vendor/gapps" name="ezio84/android-gapps" remote="gitlab" revision="pie-inline" />-->
   <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
+  <project path="vendor/images" name="ezio84/android_vendor_images" remote="gitlab" revision="q" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
