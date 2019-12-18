@@ -88,6 +88,9 @@
   <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" revision="q" />
   <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" revision="q" />
   <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" revision="q" />
+  <project path="device/google/bonito" name="abc_device_google_bonito" remote="abc" revision="q" />
+  <project path="device/google/bonito-sepolicy" name="abc_device_google_bonito-sepolicy" remote="abc" revision="q" />
+  <project path="kernel/google/bluecross" name="abc_kernel_google_bluecross" remote="abc" revision="q" />
   <project path="vendor/google" name="abc_vendor_google" remote="abc" revision="q" />
 
   <!-- SimpleGapps inline - ********** NB: USE android-pixelgapps FOR PIXEL DEVICES, android-gapps FOR OTHER ONES **********-->
