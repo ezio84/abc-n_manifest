@@ -38,7 +38,7 @@
   <project path="manifest" name="abc_manifest" remote="abc" revision="q" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="q" />
   <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="q" />-->
-  <!-- <project path="external/google" name="abc_external_google" remote="abc" revision="q" />-->
+  <project path="external/google" name="abc_external_google" remote="abc" revision="q" />
   <project path="external/selinux" name="abc_external_selinux" remote="abc" revision="q" />
   <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="q" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="q" />
