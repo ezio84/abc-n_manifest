@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            sync-c="true" />
-  <default revision="refs/tags/android-10.0.0_r37"
+  <default revision="refs/tags/android-10.0.0_r40"
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
@@ -77,6 +77,7 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
+  <project path="device/google_car" name="device/google_car" groups="pdk" />
    <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
    <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" />
