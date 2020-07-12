@@ -36,6 +36,7 @@
   </project>
   <project path="manifest" name="abc_manifest" remote="abc" revision="q" />
   <project path="external/google" name="abc_external_google" remote="abc" revision="q" />
+  <project path="external/pulse" name="abc_external_pulse" remote="abc" revision="q" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="q" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="q" />
