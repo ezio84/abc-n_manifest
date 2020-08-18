@@ -40,6 +40,7 @@
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="q" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="q" />
+  <project path="frameworks/opt/net/wifi" name="abc_frameworks_opt_net_wifi" groups="pdk" remote="abc" revision="q" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="q" />
   <!-- PackageInstaller path renamed to PermissionController in Q -->
@@ -463,7 +464,6 @@
   <project path="frameworks/opt/net/ike" name="platform/frameworks/opt/net/ike" groups="pdk" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
