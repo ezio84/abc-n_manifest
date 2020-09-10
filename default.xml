@@ -41,6 +41,7 @@
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="q" />
   <project path="frameworks/opt/net/wifi" name="abc_frameworks_opt_net_wifi" groups="pdk" remote="abc" revision="q" />
+  <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="q" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="q" />
   <!-- PackageInstaller path renamed to PermissionController in Q -->
@@ -49,6 +50,7 @@
   <project path="packages/apps/SettingsIntelligence" name="abc_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="abc" revision="q" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
   <project path="platform_testing" name="abc_platform_testing" remote="abc" revision="q" />
+  <project path="system/bt" name="abc_system_bt" groups="pdk" remote="abc" revision="q" />
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="q" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="q" />
   <project path="vendor/extras" name="abc_vendor_extras" remote="abc" revision="q" />
@@ -466,7 +468,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -645,7 +646,6 @@
   </project>
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
   <project path="system/ashmemd" name="platform/system/ashmemd" groups="pdk" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
