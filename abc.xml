@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <!-- Gitlab remote -->
+  <remote name="gitlab"
+          revision="r"
+           fetch="https://gitlab.com/" />
+
+  <!-- ABC -->
+  <remote  name="abc"
+           revision="r"
+           fetch="https://github.com/ezio84/" />
+
+  <!-- ABCDUWHATEVER REPOS -->
+
+  <!-- Scripts -->
+  <project path="scripts" name="scripts" remote="abc" />
+  <!-- General -->
+  <project path="bionic" name="abc_bionic" remote="abc" />
+  <project path="bootable/recovery" name="abc_bootable_recovery" remote="abc" />
+  <project path="build/make" name="abc_build" remote="abc" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="abc_build_soong" remote="abc" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="abc_manifest" remote="abc" />
+  <project path="platform_testing" name="abc_platform_testing" remote="abc" />
+
+  <!-- Device specific -->
+  <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" />
+  <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" />
+  <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" />
+  <project path="device/google/bonito" name="abc_device_google_bonito" remote="abc" />
+  <project path="device/google/bonito-sepolicy" name="abc_device_google_bonito-sepolicy" remote="abc" />
+  <project path="kernel/google/bluecross" name="abc_kernel_google_bluecross" remote="abc" />
+
+  <!-- External -->
+  <project path="external/google" name="abc_external_google" remote="abc" />
+  <project path="external/guice" name="abc_external_guice" remote="abc" />
+  <project path="external/mksh" name="abc_external_mksh" remote="abc" />
+  <project path="external/pulse" name="abc_external_pulse" remote="abc" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="abc_frameworks_av" remote="abc" />
+  <project path="frameworks/base" name="abc_frameworks_base" remote="abc" />
+  <project path="frameworks/native" name="abc_frameworks_native" remote="abc" />
+
+  <!-- Hardware
+  <project path="hardware/interfaces" name="abc_hardware_interfaces" remote="abc" />
+  <project path="hardware/libhardware" name="abc_hardware_libhardware" remote="abc" />
+  <project path="hardware/qcom/sdm845/display" name="abc_hardware_qcom_sdm845_display" remote="abc" />
+  <project path="hardware/qcom/sm8150/display" name="abc_hardware_qcom_sm8150_display" remote="abc" /> -->
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="abc_packages_apps_Settings" remote="abc" />
+  <project path="packages/apps/SettingsIntelligence" name="abc_packages_apps_SettingsIntelligence" remote="abc" />
+  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" remote="abc" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="abc_prebuilts_build-tools" remote="abc" />
+
+  <!-- System -->
+  <project path="system/bt" name="abc_system_bt" remote="abc" />
+  <project path="system/core" name="abc_system_core" remote="abc" />
+  <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
+  <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
+  <project path="system/sepolicy" name="abc_system_sepolicy" remote="abc" />
+  <project path="system/update_engine" name="abc_system_update_engine" remote="abc" />
+  <project path="system/vold" name="abc_system_vold" remote="abc" />
+
+  <!-- Vendor -->
+  <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" >
+    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+  </project>
+  <project path="vendor/extras" name="abc_vendor_extras" remote="abc" />
+  <project path="vendor/google" name="abc_vendor_google" remote="abc" />
+  <project path="vendor/images" name="ezio84/android_vendor_images" remote="gitlab" />
+  <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" />
+  <project path="vendor/support" name="abc_vendor_support" remote="abc" />
+  <project path="vendor/themes" name="abc_vendor_themes" remote="abc" />
+
+</manifest>
