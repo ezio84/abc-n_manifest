@@ -45,6 +45,9 @@
   <project path="device/google/bonito" name="abc_device_google_bonito" remote="abc" />
   <project path="device/google/bonito-sepolicy" name="abc_device_google_bonito-sepolicy" remote="abc" />
   <project path="kernel/google/bluecross" name="abc_kernel_google_bluecross" remote="abc" />
+  <!-- NEEDED TO BUILD VENDOR INLINE -->
+  <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" />
+  <project path="hardware/qcom/sdm845/display" name="abc_hardware_qcom_sdm845_display" remote="abc" />
 
   <!-- External -->
   <project path="external/google" name="abc_external_google" remote="abc" />
@@ -56,12 +59,6 @@
   <project path="frameworks/av" name="abc_frameworks_av" remote="abc" />
   <project path="frameworks/base" name="abc_frameworks_base" remote="abc" />
   <project path="frameworks/native" name="abc_frameworks_native" remote="abc" />
-
-  <!-- Hardware
-  <project path="hardware/interfaces" name="abc_hardware_interfaces" remote="abc" />
-  <project path="hardware/libhardware" name="abc_hardware_libhardware" remote="abc" />
-  <project path="hardware/qcom/sdm845/display" name="abc_hardware_qcom_sdm845_display" remote="abc" />
-  <project path="hardware/qcom/sm8150/display" name="abc_hardware_qcom_sm8150_display" remote="abc" /> -->
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="abc_packages_apps_Settings" remote="abc" />
