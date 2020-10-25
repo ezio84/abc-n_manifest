@@ -50,10 +50,10 @@
   <project path="hardware/qcom/sdm845/display" name="abc_hardware_qcom_sdm845_display" remote="abc" />
 
   <!-- External -->
-  <project path="external/google" name="abc_external_google" remote="abc" />
+  <!-- <project path="external/google" name="abc_external_google" remote="abc" />-->
   <project path="external/guice" name="abc_external_guice" remote="abc" />
   <project path="external/mksh" name="abc_external_mksh" remote="abc" />
-  <project path="external/pulse" name="abc_external_pulse" remote="abc" />
+  <!-- <project path="external/pulse" name="abc_external_pulse" remote="abc" />-->
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="abc_frameworks_av" remote="abc" />
