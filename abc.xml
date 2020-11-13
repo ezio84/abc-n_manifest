@@ -61,6 +61,7 @@
   <project path="frameworks/native" name="abc_frameworks_native" remote="abc" />
 
   <!-- Packages -->
+  <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
   <project path="packages/apps/Settings" name="abc_packages_apps_Settings" remote="abc" />
   <project path="packages/apps/SettingsIntelligence" name="abc_packages_apps_SettingsIntelligence" remote="abc" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" remote="abc" />
