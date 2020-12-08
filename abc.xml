@@ -84,6 +84,7 @@
   </project>
   <project path="vendor/extras" name="abc_vendor_extras" remote="abc" />
   <project path="vendor/google" name="abc_vendor_google" remote="abc" />
+  <!-- Empty images tree till we build vendor inline -->
   <project path="vendor/images" name="ezio84/android_vendor_images" remote="gitlab" />
   <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" />
   <project path="vendor/support" name="abc_vendor_support" remote="abc" />
