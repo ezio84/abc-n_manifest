@@ -40,6 +40,7 @@
 
   <!-- Device specific -->
   <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" />
+  <project path="hardware/qcom/msm8998" name="abc_platform_hardware_qcom_msm8998" remote="abc" />
   <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" />
   <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" />
   <project path="device/google/bonito" name="abc_device_google_bonito" remote="abc" />
