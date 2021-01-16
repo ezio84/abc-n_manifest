@@ -75,6 +75,7 @@
   <project path="system/core" name="abc_system_core" remote="abc" />
   <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
   <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
+  <project path="system/security" name="abc_system_security" remote="abc" />
   <project path="system/sepolicy" name="abc_system_sepolicy" remote="abc" />
   <project path="system/update_engine" name="abc_system_update_engine" remote="abc" />
   <project path="system/vold" name="abc_system_vold" remote="abc" />
