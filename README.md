@@ -11,6 +11,9 @@ Sync source (for future syncs, if you have errors, try "repo sync --force-sync")
 
 	repo sync
 
+Generate your signature keys and move them into vendor/security folder:
+https://github.com/ezio84/scripts/tree/r/signed%20build
+
 To build, use the build_rom.sh script in the "scripts" tree or:
 
 	. build/envsetup.sh
