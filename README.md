@@ -21,7 +21,8 @@ To build, use the build_rom.sh script in the "scripts" tree or:
 	brunch "abc_taimen-user" 2>&1 | tee build.log
 
 
-To flash the first time: remove pin, flash stock factory img, flash boot.img with fastboot, then boot to stock recovery and adb sideload the OTA zip you got in the out folder. Before rebooting wipe data.
+To flash the first time: flash stock factory img, get the built boot.img from the OUT folder
+and flash it with fastboot (you need to do this once, to flash the custom recovery), then boot to  recovery and adb sideload the build zip you got in the OUT folder. Before rebooting wipe data once.
 
 
 =====================
