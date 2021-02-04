@@ -49,6 +49,8 @@
   <!-- NEEDED TO BUILD VENDOR INLINE -->
   <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" />
   <project path="hardware/qcom/sdm845/display" name="abc_hardware_qcom_sdm845_display" remote="abc" />
+  <!-- Telephony tree for newer Pixels like sunfish. Needs to be called from device tree -->
+  <project path="vendor/codeaurora/telephony" name="abc_vendor_codeaurora_telephony" remote="abc" />
 
   <!-- External -->
   <!-- <project path="external/google" name="abc_external_google" remote="abc" />-->
