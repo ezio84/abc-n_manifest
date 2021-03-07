@@ -54,6 +54,8 @@
 
   <!-- External -->
   <!-- <project path="external/google" name="abc_external_google" remote="abc" />-->
+  <project path="external/e2fsprogs" name="abc_external_e2fsprogs" remote="abc" />
+  <project path="external/gptfdisk" name="abc_external_gptfdisk" remote="abc" />
   <project path="external/guice" name="abc_external_guice" remote="abc" />
   <project path="external/mksh" name="abc_external_mksh" remote="abc" />
   <project path="external/pulse" name="abc_external_pulse" remote="abc" />
