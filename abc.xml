@@ -15,6 +15,11 @@
            revision="r"
            fetch="https://github.com/ezio84/" />
 
+  <!-- ABC shh pushing -->
+  <remote  name="ssh"
+           revision="r"
+           fetch="git@github.com:ezio84/" />
+
   <!-- ABCDUWHATEVER REPOS -->
 
   <!-- Scripts -->
